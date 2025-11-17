@@ -8,7 +8,7 @@ public class EjemplosBucles {
 		Scanner sc = new Scanner (System.in);
 		boolean valor =true;
 		
-		
+		opcion=4;
 		/*while (!valor) {
 			System.out.println("== MENÚ OPCIONES ==");
 			System.out.println("1.- Sumar");
@@ -57,9 +57,13 @@ public class EjemplosBucles {
 		}while(opcion!=6);*/
 		
 		//Bucle for
-		for(int i=50;i<=10;i--) {
-			if(i%2==0) System.out.print("El numero "+i+" es par");
+		for(int i=2;i<=opcion;i--) {
+			if(i%2==0) {
+				System.out.print("El numero "+i+" es par");
+				continue;
+			}
 			else System.out.print("El numero "+i+" es impar");
 		}
+		
 	}
 }
