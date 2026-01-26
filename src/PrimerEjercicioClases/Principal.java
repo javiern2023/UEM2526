@@ -43,6 +43,32 @@ public class Principal {
 			}	
 		} while(opcion!=0);
 		
+		
+		
+		
+		
+		Persona p = new Persona();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 			
 		}
 
