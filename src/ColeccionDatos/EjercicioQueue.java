@@ -14,8 +14,8 @@ public class EjercicioQueue {
 		
 		Queue<String> cola = new LinkedList<>();
 
-		cola.add("Cliente1");
-		cola.add("Cliente2");
+		cola.add("Luis");
+		cola.add("Jimena");
 
 		cola.poll(); // elimina primero
 		cola.peek(); // consulta primero
